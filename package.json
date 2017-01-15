@@ -4,7 +4,9 @@
   "description": "Upgrade Node.js   sudo npm cache clean -f   sudo npm install -g n   sudo n stable",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "production": "webpack -p",
+    "deploy": "npm run production && npm run git-commit && npm run git-push",
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,11 @@
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-react": "^6.16.0",
+    "git-commit": "0.0.3",
+    "git-push": "^0.1.1",
     "html-webpack-plugin": "^2.26.0",
-    "webpack": "^2.2.0-rc.5"
+    "webpack": "^2.2.0-rc.5",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "react": "^15.4.2",
