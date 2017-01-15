@@ -1,0 +1,19 @@
+{
+  "name": "brave",
+  "version": "1.0.0",
+  "description": "Upgrade Node.js   sudo npm cache clean -f   sudo npm install -g n   sudo n stable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ETfrom2100/brave-new-world.git"
+  },
+  "author": "Leo Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ETfrom2100/brave-new-world/issues"
+  },
+  "homepage": "https://github.com/ETfrom2100/brave-new-world#readme"
+}
