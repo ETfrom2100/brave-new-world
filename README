@@ -2,3 +2,7 @@ Upgrade Node.js
   sudo npm cache clean -f
   sudo npm install -g n
   sudo n stable
+
+Install React related modules
+  npm install --save react react-dom jquery
+  mpm install --save-dev webpack@beta babel-core babel-loader babel-preset-react html-webpack-plugin

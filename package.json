@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/ETfrom2100/brave-new-world/issues"
   },
-  "homepage": "https://github.com/ETfrom2100/brave-new-world#readme"
+  "homepage": "https://github.com/ETfrom2100/brave-new-world#readme",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.26.0",
+    "webpack": "^2.2.0-rc.5"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "jquery": "^3.1.1"
+  }
 }
