@@ -5,4 +5,4 @@ Upgrade Node.js
 
 Install React related modules
   npm install --save react react-dom jquery
-  mpm install --save-dev webpack@beta babel-core babel-loader babel-preset-react html-webpack-plugin
+  npm install --save-dev html-webpack-plugin webpack webpack-dev-server babel-core babel-loader babel-preset-react
