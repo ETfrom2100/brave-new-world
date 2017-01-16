@@ -25,12 +25,13 @@
     "git-commit": "0.0.3",
     "git-push": "^0.1.1",
     "html-webpack-plugin": "^2.26.0",
-    "webpack": "^2.2.0-rc.5",
+    "webpack": "^2.2.0-rc.6",
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "jquery": "^3.1.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "jquery": "^3.1.1"
+    "react-router": "^3.0.1"
   }
 }
