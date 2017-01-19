@@ -10,6 +10,7 @@ var hashHistory = ReactRouter.hashHistory;
 
 var PromptContainer = require('../containers/PromptContainer');
 var ConfirmBattleContainer = require('../containers/ConfirmBattleContainer');
+var ResultsContainer = require('../containers/ResultsContainer');
 //import { browserHistory } from 'react-router';
 
 var routes = (
@@ -19,7 +20,7 @@ var routes = (
 			<Route path='playerOne' header="Player One" component = {PromptContainer} />
 			<Route path='playerTwo/:playerOne' header="Player Two" component = {PromptContainer} />
 			<Route path='battle' component={ConfirmBattleContainer} />
-	
+	        <Route path='results' component = {ResultsContainer} />
 			
 		</Route>
 	</Router>
