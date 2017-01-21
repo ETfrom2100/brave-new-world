@@ -8,3 +8,6 @@ Upgrade Node.js
 Install React related modules
   npm install --save react react-dom jquery
   npm install --save-dev html-webpack-plugin webpack webpack-dev-server babel-core babel-loader babel-preset-react
+  nom install --save react-addons-css-transition-group
+  npm install --save-dev css-loader style-loader
+
